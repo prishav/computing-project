@@ -1,0 +1,147 @@
+body
+{background:#999999;
+margin:0;
+padding:0;
+}
+
+#wrapper
+{width:1000px;
+background:#FFFFFF;
+
+margin:0 auto;
+}
+
+#header
+{background-color:white;
+height:10px;
+width:1000px;
+margin:0 auto;
+
+}
+#header.logo
+{background:url(downtown-dogs-logo.png)no-repeat;
+float:left;
+width:90px;
+height:150px;
+margin:5px 0 0 0px;
+}
+
+#header .bottompart
+{height:20px;
+width:1200px;
+float:left;
+margin:0px 0 0 0;}
+
+
+
+#header .bottompart .menu
+{margin:-45px 0 0 700px;
+height:10px;
+width:819px;
+float:left;
+}
+
+#header .bottompart .menu ul
+{margin:0;
+padding:0;
+}
+
+#header .bottompart .menu ul li
+{padding:7px 3px 0 5PX ;
+list-style:none;
+float:left;
+color:#00FFFF;
+}
+
+#header .bottompart .menu ul li a
+{padding:5px 3PX 0 5px;
+float:left;
+text-decoration:none;
+}
+
+#header .bottompart .menu ul li a.hover
+{color:#FFFF00;
+}
+
+#header .bottompart .menu ul li a.active
+{color:#990033;
+}
+
+
+
+#img
+{
+height:400px;
+width:1000px;
+margin:0 auto;
+}
+
+#header2
+{
+background-color:brown;
+height:100px;
+width:1000px;
+margin:0 auto;
+}
+#header3 
+{
+
+height:30px;
+width:100px;
+margin:20px auto;
+
+
+}
+
+#box1
+{background-color:green;
+height:150px;
+width:250px;
+float:left;
+}
+#box11
+{
+background-color:white;
+height:20px;
+width:75px;
+margin:70px 0px 0px 80px;
+}
+#box2
+{background-color:red;
+height:150px;
+width:250px;
+float:left;
+}
+#box22
+{
+background-color:white;
+height:20px;
+width:75px;
+margin:70px 0px 0px 80px;
+}
+#box3
+{background-color:orange;
+height:150px;
+width:250px;
+float:left;
+}
+#box33
+{
+background-color:white;
+height:20px;
+width:75px;
+margin:70px 0px 0px 80px;
+}
+#box4
+{background-color:blue;
+height:150px;
+width:250px;
+float:left;
+}
+#box44
+{
+background-color:white;
+height:20px;
+width:75px;
+margin:70px 0px 0px 80px;
+}
