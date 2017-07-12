@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin Dashboard</title>
+<link href="<?php echo base_url('assets/bajaj.css')?>" rel="stylesheet">
+<link href="<?php echo base_url('assets/profile.css')?>" rel="stylesheet">
+</head>
+<body>
+<div id="Layer1" style="position:relative;text-align:center;width:100%;height:51px;float:left;clear:left;display:block;z-index:20;">
+<div id="Layer1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text1" style="position:absolute;left:359px;top:1px;width:250px;height:32px;z-index:0;">
+<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>Admin Panel</strong></span></div>
+</div>
+</div>
+<div id="Layer2" style="position:absolute;text-align:left;left:0px;top:51px;width:189px;height:802px;z-index:21;">
+<div id="wb_Image1" style="position:absolute;left:13px;top:10px;width:82px;height:94px;z-index:1;">
+<img src="images/Bajaj Logo.jpg" id="Image1" alt=""></div>
+<div id="wb_CssMenu1" style="position:absolute;left:13px;top:116px;width:176px;height:336px;z-index:2;">
+<ul>
+<li class="firstmain"><a href="<?php echo base_url('Welcome/admindashboard')?>" target="_self">HOME</a>
+</li>
+<li><a href="<?php echo site_url('Welcome/addbike')?>" target="_self">ADDBIKE</a>
+</li>
+<li><a href="<?php echo site_url('customer/updateBikedetails')?>" target="_self">EDITBIKE</a>
+</li>
+<li><a href="<?php echo site_url('customer/editAdminProfile')?>" target="_self">EDITPROFILE</a>
+</li>
+<li><a href="<?php echo site_url('customer/viewCustomer')?>" target="_self">VIEWCUSTOMER</a>
+</li>
+<li><a href="<?php echo site_url('book/viewDetails')?>" target="_self">BOOKINGS</a>
+</li>
+<li><a href="<?php echo site_url('customer/logout')?>" target="_self">LOGOUT</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="wb_Text3" style="position:absolute;left:308px;top:61px;width:355px;height:37px;z-index:22;">
+<span style="color:#0000FF;font-family:Arial;font-size:32px;"><strong>EDIT PROFILE </strong></span></div>
+<div id="wb_signupform" style="position:absolute;left:294px;top:136px;width:417px;height:631px;z-index:23;">
+<form name="signupform" method="post" action="<?php echo basename(__FILE__); ?>" accept-charset="UTF-8" id="signupform">
+<input type="hidden" name="form_name" value="signupform">
+<label for="" id="Label2" style="position:absolute;left:6px;top:6px;width:397px;height:16px;line-height:16px;z-index:3;">Edit Profile</label>
+<input type="text" id="fullname" style="position:absolute;left:7px;top:59px;width:393px;height:18px;line-height:18px;z-index:4;" name="fname" value="" spellcheck="false" placeholder="Enter your Firstname">
+<input type="text" id="username" style="position:absolute;left:7px;top:317px;width:393px;height:18px;line-height:18px;z-index:5;" name="uname" value="" spellcheck="false" placeholder="Enter an Username">
+<input type="password" id="password" style="position:absolute;left:5px;top:385px;width:393px;height:18px;line-height:18px;z-index:6;" name="pword" value="" spellcheck="false" placeholder="Enter a password">
+<input type="password" id="confirmpassword" style="position:absolute;left:4px;top:451px;width:393px;height:18px;line-height:18px;z-index:7;" name="confirmpassword" value="" spellcheck="false" placeholder="Re-enter the password">
+<label for="Editbox2" id="Label7" style="position:absolute;left:5px;top:487px;width:397px;height:16px;line-height:16px;z-index:8;">E-mail</label>
+<label for="" id="Label8" style="position:absolute;left:12px;top:87px;width:380px;height:23px;line-height:23px;z-index:9;">Last name</label>
+<label for="Editbox1" id="Label6" style="position:absolute;left:5px;top:427px;width:397px;height:16px;line-height:16px;z-index:10;">Confirm Password</label>
+<input type="text" id="Editbox1" style="position:absolute;left:5px;top:118px;width:393px;height:21px;line-height:21px;z-index:11;" name="lname" value="" spellcheck="false" placeholder="Enter your Last name">
+<label for="" id="Label9" style="position:absolute;left:1px;top:149px;width:402px;height:24px;line-height:24px;z-index:12;">Address</label>
+<input type="text" id="Editbox2" style="position:absolute;left:6px;top:181px;width:391px;height:18px;line-height:18px;z-index:13;" name="address" value="" spellcheck="false" placeholder="Enter your Address">
+<input type="text" id="email" style="position:absolute;left:5px;top:511px;width:393px;height:18px;line-height:18px;z-index:14;" name="email" value="" spellcheck="false" placeholder="Enter your email">
+<input type="number" id="Editbox3" style="position:absolute;left:6px;top:243px;width:391px;height:22px;line-height:22px;z-index:15;" name="contact" value="" spellcheck="false" placeholder="Enter your Contact Number">
+<input type="submit" id="signup" name="signup" value="Create User" style="position:absolute;left:160px;top:568px;width:97px;height:24px;z-index:16;">
+<label for="confirmpassword" id="Label4" style="position:absolute;left:3px;top:283px;width:397px;height:16px;line-height:16px;z-index:17;">User Name</label>
+<label for="Label8" id="Label5" style="position:absolute;left:3px;top:353px;width:397px;height:16px;line-height:16px;z-index:18;">Password</label>
+</form>
+</div>
+<label for="" id="Label3" style="position:absolute;left:294px;top:167px;width:397px;height:16px;line-height:16px;z-index:24;">First Name</label>
+<label for="" id="Label1" style="position:absolute;left:300px;top:349px;width:405px;height:23px;line-height:23px;z-index:25;">Contact</label>
+<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:900px;width:100%;height:100px;z-index:-1;">
+<div id="PageFooter1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text2" style="position:absolute;left:373px;top:28px;width:261px;height:18px;z-index:19;">
+<span style="color:#000000;font-family:Arial;font-size:16px;">© 2017 Bajaj Bike Showroom™</span></div>
+</div>
+</div>
+</body>
+</html>

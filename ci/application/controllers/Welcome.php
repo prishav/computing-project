@@ -20,14 +20,57 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		$this->load->view('home');
+	}
+	public function registration()
+	{
+		$this->load->view('registration');
+	}
+	public function home()
+	{
+		$this->load->view('home');
+	}
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+	public function login()
+	{
+		$this->load->view('login');
 	}
 	
-	public function login(){
-		$this->load->view('login');
-		
+	public function adminPannel()
+	{
+		$this->load->view('admin panel');
 	}
-	public function signup(){
-		$this->load->view('signup');
+	 
+	 public function customerDashboard()
+	{
+		$this->load->view('customer dashboard');
+	}
+	public function link()
+	{
+		$this->load->view('link');
+	}
+	public function heading()
+	{
+		$this->load->view('heading');
+	}
+	public function addProduct()
+	{
+		$this->load->view('addproduct');
+	}
+	
+	public function dashboard()
+	{
+		$this->load->view('dashboard');
+	}
+	public function editProfile()
+	{
+		$this->load->view('editprofile');
+	}
+		public function editProduct()
+	{
+		$this->load->view('productlist');
 	}
 }
